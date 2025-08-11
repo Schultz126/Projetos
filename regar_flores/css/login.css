@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+:root {
+    --cor1: #706A2E;
+    --cor2: #76B041;
+    --cor3: #DAED26;
+    --cor4: #494C26;
+    --cor5: #33ED26;
+    --shadow-black: rgba(0, 0, 0, 0.255);
+}
+
+* {
+    padding : 0px;
+    margin: 0px;
+}
+
+body {
+    height: 100dvh;
+    width: 100dvw;
+}
+
+header {
+    @media screen and (max-width: 1170px){
+        padding: 10px;
+    }
+    text-align: center;
+    margin: auto;
+    border: 1px solid black;
+    box-shadow: 1px 1px 1px 1px var(--shadow-black);
+    background-image: linear-gradient(to left, var(--cor2), var(--cor4));
+    color: white;
+    text-shadow: 1px 1px var(--shadow-black);
+}

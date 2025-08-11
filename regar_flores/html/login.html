@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../imagens/1-2a91275f.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../css/login.css">
     <title>Regar Flores</title>
 </head>
 <body>
@@ -15,10 +16,11 @@
             <p><label for="flowerSelection">Escolha uma das flores: (Mais opções no futuro)</label></p>
             <select name="flowerSelection" id="flowerSelection" required>
                 <option value="-1">---</option>
-                <option value="0">Begônia</option>
+                <option value="BEG">Begônia</option>
             </select>
-            <input type="submit">
+            <button type="submit" id="submitButton">Enviar</button>
         </section>
     </main>
+    <script src="../js/loginPage.js"></script>
 </body>
 </html>
