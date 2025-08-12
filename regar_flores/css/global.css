@@ -1,0 +1,21 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&family=Caveat:wght@400..700&family=Delius&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&family=Caveat:wght@400..700&family=Delius&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Shadows+Into+Light&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    padding : 0px;
+    margin: 0px;
+}
+
+body {
+    height: 100dvh;
+    width: 100dvw;
+}
+
+header {
+    font-family: 'Delius', sans-serif;
+}
+
+main, footer {
+    font-family: 'Tinos', sans-serif;
+}
